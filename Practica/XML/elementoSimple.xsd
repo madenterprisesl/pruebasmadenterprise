@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!-- Comienzo del esquema -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Elemento raiz -->
+    <xs:element name="tienda">
+        <!-- Descripción de las ramificaciones de tienda.-->
+        <xs:complexType>
+            <!-- Para ordenar esas ramificaciones de tienda.-->
+            <xs:sequence>
+                <xs:element name="producto" minOccurs="1" maxOccurs="unbounded">
+                    <!-- Descripción de las ramificaciones de producto.-->
+                    <xs:complexType>
+                        <!-- Para ordenar esas ramificaciones de producto.-->
+                        <xs:sequence>
+                            <!-- Para nombrar cada característica del producto.-->
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="descripcion" type="xs:string"/>
+                            <xs:element name="stock" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

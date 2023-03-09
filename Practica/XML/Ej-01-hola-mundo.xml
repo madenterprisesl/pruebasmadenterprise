@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!-- Estructura de mi tienda -->
+<tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="elementoSimple.xsd">
+    <producto>
+        <nombre>
+            Harry Potter y el Cáliz de Fuego
+        </nombre>
+        <descripcion>
+            Libro de ficción y aventuras para mayores de 8 años.
+        </descripcion>
+        <stock>234</stock>
+    </producto>
+    <producto>
+        <nombre>
+            PSP 3000 negra
+        </nombre>
+        <descripcion>
+            Consola tecnológica de entretenimiento.
+        </descripcion>
+        <stock>96</stock>
+    </producto>
+</tienda>

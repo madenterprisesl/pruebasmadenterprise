@@ -1,0 +1,10 @@
+<!--       Comentarios         -->
+
+<?xml atributos="valor" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE raiz OPCIONES "nombre del fichero">
+<!DOCTYPE tienda SYSTEM "tienda.dtd">
+
+<tag atributos="valor" /> Sin cuerpo
+<tag atributos="valor"> Cuerpo </tag>

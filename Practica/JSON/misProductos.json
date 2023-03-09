@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Harry Potter y el Cáliz de Fuego.",
+        "descripcion": "Libro de ficción y aventuras para mayores de 8 años.",
+        "stock": 234
+    },
+    {
+        "nombre": "PSP 3000 negra.",
+        "descripcion": "Consola tecnológica de entretenimiento.",
+        "stock": 96
+    },
+    {
+        "nombre": "Zapatillas Adidas Galaxy Elite.",
+        "descripcion": "Calzado deportivo/de running.",
+        "stock": 56
+    }
+]
